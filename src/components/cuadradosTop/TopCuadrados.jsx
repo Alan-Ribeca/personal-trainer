@@ -5,6 +5,7 @@ export const TopCuadrados = () => {
     <>
       <section className="cuadradoContainer">
         <div className="cuadrado uno">
+          <div className="desenfocado"></div>
           <img
             src="../public/img/pesa.png"
             alt="svg de una mancuerna"
@@ -31,17 +32,20 @@ export const TopCuadrados = () => {
           </p>
         </div>
         <div className="cuadrado tres">
-          <img
-            src="../public/img/tricepss.png"
-            alt="svg de una mancuerna"
-            className="imgSvg"
-          />
-          <h3 className="titleCuadrado">Entrenamiento</h3>
-          <p className="textoCuadrado">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-            repellat porro eveniet modi, voluptatem nihil consequatur possimus
-            quidem error
-          </p>
+          <div className="desenfocado"></div>
+          <div className="cuadrado tres">
+            <img
+              src="../public/img/tricepss.png"
+              alt="svg de una mancuerna"
+              className="imgSvg"
+            />
+            <h3 className="titleCuadrado">Entrenamiento</h3>
+            <p className="textoCuadrado">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+              repellat porro eveniet modi, voluptatem nihil consequatur possimus
+              quidem error
+            </p>
+          </div>
         </div>
       </section>
     </>
