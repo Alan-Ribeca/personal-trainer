@@ -1,6 +1,4 @@
 .header {
-  width: 1200px;
-  margin: 0 auto;
   position: relative;
 
   .imgFondo {
@@ -45,13 +43,27 @@
     }
 
     .comenzarAhora {
-        border-radius: 4px;
-        background-color:#ffd700;
-        color: black;
-        border: none;
-        width: 10rem;
-        height: 2.5rem;
-        font-weight: 800;
+      border-radius: 4px;
+      background-color: #ffd700;
+      color: black;
+      border: none;
+      width: 10rem;
+      height: 2.5rem;
+      font-weight: 800;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c8ff00;
+        color: rgb(0, 0, 0);
+        transition: background-color 0.3s ease-in-out;
+      }
     }
+  }
+  .barra {
+    position: absolute;
+    bottom: -23%;
+    z-index: 1;
+    width: 100%;
+    border-color: #c8ff00;
   }
 }

@@ -21,6 +21,7 @@ export const Top = () => {
           <button className="comenzarAhora">Comenzar ahora</button>
         </div>
         <TopCuadrados />
+        <hr  className='barra'/>
       </header>
     </>
   );

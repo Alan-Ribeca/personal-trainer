@@ -1,0 +1,29 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(117, 88, 88, 0.178);
+  width: 300px;
+  height: 3rem;
+  padding: 0 0.3rem;
+  border-radius: 8px;
+  box-shadow: 1px 0.5px 1px rgb(200 255 0 / 46%);
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(117, 88, 88, 0.278);
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 1px -1.5px 3.1px rgba(200, 255, 0, 0.46);
+  }
+  .svg {
+    width: 20px;
+    height: 20px;
+    padding-right: 0.5rem;
+    background-color: transparent;
+  }
+
+  .tex {
+    background-color: transparent;
+    padding-right: 0.5rem;
+  }
+}
