@@ -1,0 +1,45 @@
+.cuadradoContainer {
+  display: flex;
+  position: absolute;
+  bottom: -18%;
+  background-color: transparent;
+  .cuadrado {
+    text-align: center;
+    height: 240px;
+    background-color: transparent;
+    .imgSvg {
+      width: 50px;
+      height: 50px;
+      background-color: transparent;
+      padding-top: 1rem;
+    }
+
+    .titleCuadrado,
+    .textoCuadrado {
+      background-color: transparent;
+      padding: 0.8rem;
+    }
+
+    .textoCuadrado {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 0.3rem;
+    }
+
+    &.uno,
+    &.tres {
+      background-color: rgba(117, 88, 88, 0.178);
+    }
+
+    &.dos {
+      background-color: #ffd700;
+      .titleCuadrado {
+        color: black;
+      }
+      .textoCuadrado {
+        color: black;
+        font-weight: 600;
+      }
+    }
+  }
+}

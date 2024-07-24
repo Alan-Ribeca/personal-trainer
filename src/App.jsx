@@ -1,7 +1,12 @@
-import "./css/App.scss"
+import { Top } from "./components/top/Top";
+import "./css/App.scss";
 
 function App() {
-  return <><h1>hola</h1></>;
+  return (
+    <>
+      <Top />
+    </>
+  );
 }
 
 export default App;
