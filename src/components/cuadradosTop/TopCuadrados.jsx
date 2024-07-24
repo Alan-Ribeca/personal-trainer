@@ -6,7 +6,7 @@ export const TopCuadrados = () => {
       <section className="cuadradoContainer">
         <div className="cuadrado uno">
           <img
-            src="../public/img/svgPesa.png"
+            src="../public/img/pesa.png"
             alt="svg de una mancuerna"
             className="imgSvg"
           />
@@ -32,7 +32,7 @@ export const TopCuadrados = () => {
         </div>
         <div className="cuadrado tres">
           <img
-            src="../public/img/triceps.png"
+            src="../public/img/tricepss.png"
             alt="svg de una mancuerna"
             className="imgSvg"
           />
