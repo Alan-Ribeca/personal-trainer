@@ -46,7 +46,7 @@ export const Acceso = () => {
             <p className="texto">Celebrando logros y nuevas metas</p>
           </div>
         </div>
-        <hr className="barra" />
+        <div className="barra"></div>
       </section>
     </>
   );

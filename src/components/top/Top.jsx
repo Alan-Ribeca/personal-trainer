@@ -5,7 +5,11 @@ export const Top = () => {
   return (
     <>
       <header className="header">
-        <img src="../public/img/img2.jpg" alt="persona en el gym" className="imgFondo" />
+        <img
+          src="../public/img/img2.jpg"
+          alt="persona en el gym"
+          className="imgFondo"
+        />
         <div className="contenedor">
           <h1 className="name">
             Miguel <strong className="apellido">Arzamendia</strong>
@@ -21,7 +25,7 @@ export const Top = () => {
           <button className="comenzarAhora">Comenzar ahora</button>
         </div>
         <TopCuadrados />
-        <hr  className='barra'/>
+        <div className="barra"></div>
       </header>
     </>
   );
