@@ -1,0 +1,63 @@
+.titleResul {
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .containerCarusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .resul {
+      margin-top: 1rem;
+      padding: 0 0.5rem;
+      border-radius: 5px;
+      img {
+        border-radius: 4px;
+        width: 330px;
+        height: 280px;
+        mask-image: linear-gradient(rgb(0, 0, 0) 50%, transparent);
+      }
+    }
+
+    .flecha {
+      &.Izqui {
+        padding-right: 1rem;
+      }
+
+      &.Dere {
+        padding-left: 1rem;
+      }
+
+      &:hover {
+        cursor: pointer;
+        fill: #c8ff00;
+      }
+    }
+  }
+
+  .comenzarAhora {
+    margin-top: 1rem;
+    border-radius: 4px;
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: 800;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #c8ff00;
+      color: rgb(0, 0, 0);
+      transition: background-color 0.3s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.slider {
+  display: flex;
+  overflow: hidden;
+  margin-top: 1.5rem;
+
+  .slideContainer {
+    display: flex;
+    .slide {
+      background-color: rgba(117, 88, 88, 0.178);
+      height: 143px;
+      width: 315px;
+      margin: 2rem 1rem 0 0 ;
+      border-radius: 4px;
+      overflow: hidden;
+
+      .containerImg {
+        background-color: transparent;
+        display: flex;
+        padding: 1rem;
+        img {
+          width: 39px;
+          height: 39px;
+          border-radius: 50%;
+        }
+
+        .info {
+          background-color: transparent;
+          padding-left: 0.5rem;
+
+          .name {
+            background-color: transparent;
+          }
+
+          .usuario {
+            background-color: transparent;
+            font-size: small;
+          }
+        }
+      }
+
+      .textoReco {
+        background-color: transparent;
+        padding-left: 1rem;
+        width: 80%;
+      }
+    }
+  }
+}
