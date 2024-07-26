@@ -1,5 +1,5 @@
 import { Acceso } from "./components/acceso/Acceso";
-// import { Comprar } from "./components/Comprar/Comprar";
+import { Comprar } from "./components/Comprar/Comprar";
 import { Recomendaciones } from "./components/recomendaciones/Recomendaciones";
 import { Resultados } from "./components/resultados/Resultados";
 import { Top } from "./components/top/Top";
@@ -12,7 +12,7 @@ function App() {
       <Acceso />
       <Resultados />
       <Recomendaciones />
-      {/* <Comprar /> */}
+      <Comprar />
     </>
   );
 }

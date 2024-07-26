@@ -1,0 +1,133 @@
+.titleCompra {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.textoCompra {
+  text-align: center;
+  color: #b5b5b5;
+  margin-bottom: 5rem;
+}
+.containerCompra {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 610px;
+  .card {
+    background-color: rgba(136, 114, 114, 0.178);
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #42404085;
+
+    .logos {
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .titleCard {
+        font-size: 1.5rem;
+      }
+      img {
+        background-color: transparent;
+      }
+    }
+
+    .price {
+      font-weight: 600;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .acceso {
+      font-size: 0.8rem;
+      padding-left: 0.2rem;
+    }
+
+    .lista {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      ul {
+        list-style: none;
+
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.3rem;
+
+          .textoLi {
+            padding-left: 0.4rem;
+          }
+        }
+      }
+
+      .btnComprar {
+        background-color: #42404085;
+        color: white;
+        padding: 0.8rem 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+  }
+}
+
+.card {
+  &.elegida {
+    background-color: white;
+    border: 1px solid rgba(93, 233, 28, 0.527);
+    position: absolute;
+    right: 31%;
+    top: -5%;
+    z-index: 1;
+    height: 543px;
+    box-shadow: 1px 1px 6px 0px #05f11794;
+    .titleCard,
+    .price,
+    .acceso {
+      color: black;
+    }
+
+    .lista {
+      margin-top: 0.5rem;
+      ul {
+        li {
+          .textoLi {
+            color: black;
+          }
+        }
+      }
+      .btnComprar {
+        background-color: #00ff28;
+        margin-top: 1.5rem;
+        color: black;
+        font-weight: 800;
+
+        &:hover {
+          background-color: #c8ff00;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  &.izquierda {
+    position: absolute;
+    left: 4%;
+  }
+}
+
+.card {
+  &.derecha {
+    position: absolute;
+    right: 4%;
+  }
+}
