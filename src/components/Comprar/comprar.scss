@@ -74,7 +74,7 @@
     }
 
     &:hover {
-        cursor: pointer;
+      cursor: pointer;
     }
   }
 }
@@ -130,4 +130,21 @@
     position: absolute;
     right: 4%;
   }
+}
+
+.barra {
+  height: 2px;
+  border: none;
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(117, 88, 88, 0.178) 0%,
+    rgba(117, 88, 88, 0.178) 20%,
+    #c8ff00 50%,
+    rgba(117, 88, 88, 0.178) 80%,
+    rgba(117, 88, 88, 0.178) 100%
+  );
 }
