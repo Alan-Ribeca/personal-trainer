@@ -35,6 +35,30 @@
         padding-right: 1rem;
         background-color: transparent;
       }
+
+      &:hover {
+        background-color: rgb(156 130 130 / 46%);
+        box-shadow: -0.5px 1.5px 1px rgb(200 255 0 / 56%);
+      }
+
+      &.liAbierto {
+        height: 5rem;
+        align-items: baseline;
+        padding-top: 1rem;
+        position: relative;
+
+        .textPreg {
+          display: block;
+          width: 90%;
+          position: absolute;
+          bottom: 5%;
+          background: transparent;
+        }
+      }
+    }
+
+    .textPreg {
+      display: none;
     }
   }
 
