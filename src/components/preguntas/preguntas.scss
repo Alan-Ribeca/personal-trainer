@@ -54,6 +54,12 @@
           bottom: 5%;
           background: transparent;
         }
+
+        .flechaPreg {
+          padding-left: 1rem;
+          padding-right: 0;
+          transform: rotate(180deg);
+        }
       }
     }
 
