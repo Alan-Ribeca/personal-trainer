@@ -1,13 +1,25 @@
+import { useState } from "react";
 import "./comprar.scss";
 
 export const Comprar = () => {
+  const [clase, setClase] = useState("elegida");
+
+  const handleClick = (tipo) => {
+    setClase(tipo);
+  };
+
   return (
     <>
       <h3 className="titleCompra">Echa un vistazo a los planes</h3>
       <p className="textoCompra">Tendras acceso a...</p>
       <div className="containerCompra">
         <div className="containerCard">
-          <div className="card izquierda">
+          <div
+            className={`card izquierda ${
+              clase === "elegidaIzquierda" ? "elegida" : ""
+            }`}
+            onClick={() => handleClick("elegidaIzquierda")}
+          >
             <div className="logos">
               <img src="./img/svgHombre.png" alt="svg del torso de un hombre" />
               <h4 className="titleCard">Plan Mensual</h4>
@@ -58,7 +70,10 @@ export const Comprar = () => {
         </div>
 
         <div className="containerCard">
-          <div className="card elegida medio">
+          <div
+            className={`card medio ${clase === "elegida" ? "elegida" : ""}`}
+            onClick={() => handleClick("elegida")}
+          >
             <div className="logos">
               <img src="./img/svgHombre.png" alt="svg del torso de un hombre" />
               <h4 className="titleCard">Plan Trimestral</h4>
@@ -109,7 +124,12 @@ export const Comprar = () => {
         </div>
 
         <div className="containerCard">
-          <div className="card derecha">
+          <div
+            className={`card derecha ${
+              clase === "elegidaDerecha" ? "elegida" : ""
+            }`}
+            onClick={() => handleClick("elegidaDerecha")}
+          >
             <div className="logos">
               <img src="./img/svgHombre.png" alt="svg del torso de un hombre" />
               <h4 className="titleCard">Plan Simestral</h4>
