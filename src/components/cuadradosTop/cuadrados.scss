@@ -8,12 +8,13 @@
     height: 240px;
     background-color: transparent;
     position: relative;
+    width: 100%;
 
     .desenfocado {
       position: absolute;
       width: 100%;
       height: 100%;
-      background-color: rgba(117, 88, 88, 0.178);
+      background-color: rgb(117 88 88 / 7%);
       filter: blur(4px);
       top: 0;
       left: 0;
@@ -41,6 +42,7 @@
     &.dos {
       background-color: #b1eb1e;
       opacity: 0.9;
+
       .titleCuadrado {
         color: black;
       }

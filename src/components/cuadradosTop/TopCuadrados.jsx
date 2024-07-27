@@ -11,11 +11,10 @@ export const TopCuadrados = () => {
             alt="svg de una mancuerna"
             className="imgSvg"
           />
-          <h3 className="titleCuadrado">Entrenamiento</h3>
+          <h3 className="titleCuadrado">Pesas</h3>
           <p className="textoCuadrado">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-            repellat porro eveniet modi, voluptatem nihil consequatur possimus
-            quidem error
+            Entrenamiento personalizado con pesas para fortalecer todo tu cuerpo
+            y alcanzar tus objetivos de fitness.
           </p>
         </div>
         <div className="cuadrado dos">
@@ -26,9 +25,9 @@ export const TopCuadrados = () => {
           />
           <h3 className="titleCuadrado">Entrenamiento</h3>
           <p className="textoCuadrado">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-            repellat porro eveniet modi, voluptatem nihil consequatur possimus
-            quidem error
+            plan de ejercicio a tu medida, diseñado para ayudarte a alcanzar tus
+            metas de forma segura y efectiva. Ya sea que busques tonificar,
+            ganar músculo o mejorar tu resistencia
           </p>
         </div>
         <div className="cuadrado tres">
@@ -39,11 +38,10 @@ export const TopCuadrados = () => {
               alt="svg de una mancuerna"
               className="imgSvg"
             />
-            <h3 className="titleCuadrado">Entrenamiento</h3>
+            <h3 className="titleCuadrado">Fuerza</h3>
             <p className="textoCuadrado">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-              repellat porro eveniet modi, voluptatem nihil consequatur possimus
-              quidem error
+              Descubre el poder de un entrenamiento efectivo y consigue unos
+              brazos definidos y musculosos
             </p>
           </div>
         </div>

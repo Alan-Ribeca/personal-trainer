@@ -32,10 +32,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Trabajaremos juntos para definir tus objetivos y necesidades,
+              ajustando ejercicios y rutinas específicas para ti.
             </p>
           </div>
         </li>
@@ -57,10 +55,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Las consultas están disponibles de lunes a viernes, de 8:00 am a
+              6:00 pm.
             </p>
           </div>
         </li>
@@ -82,10 +78,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Los resultados varían, pero generalmente puedes empezar a notar
+              cambios en 4-6 semanas con constancia.
             </p>
           </div>
         </li>
@@ -107,10 +101,7 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Sí, ajustamos el plan regularmente según tus avances y feedback.
             </p>
           </div>
         </li>
@@ -132,10 +123,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Algunos planes pueden requerir equipo básico como pesas o bandas
+              elásticas, pero también hay opciones sin equipo.
             </p>
           </div>
         </li>
@@ -157,10 +146,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              El plan anual no está disponible actualmente debido a la demanda y
+              ajustes en la programación.
             </p>
           </div>
         </li>
@@ -182,10 +169,8 @@ export const Preguntas = () => {
           </svg>
           <div className="textPreg">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              sint excepturi dolorem deserunt facere. Iure impedit eligendi hic
-              aut atque omnis voluptates, magni, esse doloribus saepe rem quo
-              tenetur fuga!
+              Evaluamos tu progreso a través de mediciones, fotos y rendimiento,
+              y lo comunicamos en sesiones de revisión mensuales.
             </p>
           </div>
         </li>

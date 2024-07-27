@@ -12,33 +12,24 @@
     left: 5%;
     background-color: transparent;
 
-    .name {
-      position: relative;
-      background-color: transparent;
-      margin-bottom: 4rem;
-      font-size: 5rem;
-      .apellido {
-        background-color: transparent;
-        position: absolute;
-        font-size: 3.5rem;
-        top: 75%;
-        left: 7%;
-        color: #b1eb1e;
-      }
-    }
-
     .title {
       width: 30%;
       background-color: transparent;
       margin-bottom: 0.5rem;
+      font-size: 3rem;
     }
 
     .texto {
       background-color: transparent;
       width: 30%;
-      font-size: 14px;
+      font-size: 16px;
       color: #b5b5b5;
       margin-bottom: 1rem;
+
+      .textoComenzar {
+        color: white;
+        font-size: 15px;
+      }
     }
 
     .comenzarAhora {

@@ -11,16 +11,14 @@ export const Top = () => {
           className="imgFondo"
         />
         <div className="contenedor">
-          <h1 className="name">
-            Miguel <strong className="apellido">Arzamendia</strong>
-          </h1>
-          <h2 className="title">
+          <h1 className="title">
             Alcanza tu mejor version con coaching personalizado
-          </h2>
+          </h1>
           <p className="texto">
-            Ofrezco entrenamiento personalizado adaptado a tus objetivos.
-            Juntos, crearemos un plan unico para que alcances tus metas de forma
-            efectiva. ¡Transforma tu vida conmigo!
+            Soy Miguel, tu futuro personal trainer. ¿Estás listo para
+            transformar tu vida con entrenamientos personalizados hechos a tu
+            medida?{" "}
+            <strong className="textoComenzar">¡Vamos a comenzar!</strong>
           </p>
           <button className="comenzarAhora">Comenzar ahora</button>
         </div>
