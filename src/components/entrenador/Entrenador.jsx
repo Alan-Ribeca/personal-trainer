@@ -2,6 +2,7 @@ import "./entrenador.scss";
 export const Entrenador = () => {
   return (
     <section className="entrenador">
+      <div className="barraTop"></div>
       <div className="presentacion">
         <h3 className="titleProfe">¿Quien va a ser tu entrenador?</h3>
         <p className="textoProfe">

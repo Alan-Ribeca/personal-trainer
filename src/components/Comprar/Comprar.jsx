@@ -178,7 +178,7 @@ export const Comprar = () => {
             </div>
           </div>
         </div>
-        <div className="barra"></div>
+        {/* <div className="barra"></div> */}
       </div>
     </>
   );
