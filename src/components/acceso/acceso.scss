@@ -79,3 +79,23 @@
     );
   }
 }
+
+@media screen and (max-width: 1320px) {
+  .acceso {
+    width: auto;
+  }
+  .pasos .container {
+    width: auto;
+
+    column-gap: 0px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .acceso .cuadrados {
+    margin-top: 1rem;
+  }
+  .pasos .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

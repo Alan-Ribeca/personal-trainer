@@ -25,9 +25,9 @@ export const TopCuadrados = () => {
           />
           <h3 className="titleCuadrado">Entrenamiento</h3>
           <p className="textoCuadrado">
-            plan de ejercicio a tu medida, diseñado para ayudarte a alcanzar tus
-            metas de forma segura y efectiva. Ya sea que busques tonificar,
-            ganar músculo o mejorar tu resistencia
+            Plan de ejercicio personalizado para ayudarte a alcanzar tus metas
+            de forma segura y efectiva, ya sea tonificar, ganar músculo o
+            mejorar tu resistencia.
           </p>
         </div>
         <div className="cuadrado tres">

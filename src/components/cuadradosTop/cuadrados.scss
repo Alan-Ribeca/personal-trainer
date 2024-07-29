@@ -3,7 +3,7 @@
   width: 86%;
   left: 7%;
   position: absolute;
-  bottom: -18%;
+  bottom: -10%;
   background-color: transparent;
   .cuadrado {
     text-align: center;
@@ -52,5 +52,66 @@
         font-weight: 600;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .cuadradoContainer {
+    width: 92%;
+    left: 4%;
+
+    .cuadrado {
+      height: 192px;
+
+      .imgSvg {
+        padding: 0.5rem;
+      }
+
+      .titleCuadrado {
+        padding: 0;
+      }
+
+      .textoCuadrado {
+        width: 90%;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .cuadradoContainer {
+    bottom: -21%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .cuadradoContainer .cuadrado {
+    .imgSvg {
+      padding: 0.5rem 0 0 0;
+    }
+
+    .textoCuadrado {
+      padding-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .cuadradoContainer {
+    bottom: -30%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .cuadradoContainer {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .cuadradoContainer .cuadrado {
+    height: 210px;
   }
 }

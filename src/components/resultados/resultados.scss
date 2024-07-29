@@ -61,3 +61,30 @@
     }
   }
 }
+
+@media screen and (max-width: 1220px) {
+  .resultados .containerCarusel .resul img {
+    width: 270px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .resultados .containerCarusel .resul img {
+    width: 220px;
+    height: 217px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .resultados .containerCarusel .resul {
+    img {
+      width: 238px;
+      height: 229px;
+    }
+
+    &.Tres {
+      display: none;
+    }
+  }
+}

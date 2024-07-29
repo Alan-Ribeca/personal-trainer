@@ -144,3 +144,33 @@
     background-color: rgb(37 37 37);
   }
 }
+
+@media screen and (max-width: 1220px) {
+  .containerCompra {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .card {
+    &.medio {
+      right: 28%;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .card {
+    &.medio {
+      right: 27%;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    &.medio {
+      right: 22%;
+    }
+  }
+}

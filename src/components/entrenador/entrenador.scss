@@ -46,3 +46,15 @@
     );
   }
 }
+
+@media screen and (max-width: 970px) {
+  .entrenador {
+    .presentacion {
+      width: 43%;
+    }
+
+    .imgEntrenador {
+      width: 350px;
+    }
+  }
+}
