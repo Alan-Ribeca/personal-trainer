@@ -20,22 +20,13 @@ export const Resultados = () => {
             />
           </svg>
           <div className="resul Uno">
-            <img
-              src="./public/img/cambio.jpeg"
-              alt="cambio fisico de un hombre"
-            />
+            <img src="./img/cambio.jpeg" alt="cambio fisico de un hombre" />
           </div>
           <div className="resul Dos">
-            <img
-              src="./public/img/cambio2.jpeg"
-              alt="cambio fisico de un hombre"
-            />
+            <img src="./img/cambio2.jpeg" alt="cambio fisico de un hombre" />
           </div>
           <div className="resul Tres">
-            <img
-              src="./public/img/cambio3.jpeg"
-              alt="cambio fisico de un hombre"
-            />
+            <img src="./img/cambio3.jpeg" alt="cambio fisico de un hombre" />
           </div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -7,7 +7,7 @@ export const TopCuadrados = () => {
         <div className="cuadrado uno">
           <div className="desenfocado"></div>
           <img
-            src="../public/img/pesa.png"
+            src="./img/pesa.png"
             alt="svg de una mancuerna"
             className="imgSvg"
           />
@@ -19,7 +19,7 @@ export const TopCuadrados = () => {
         </div>
         <div className="cuadrado dos">
           <img
-            src="../public/img/press.png"
+            src="./img/press.png"
             alt="svg de una mancuerna"
             className="imgSvg"
           />
@@ -34,7 +34,7 @@ export const TopCuadrados = () => {
           <div className="desenfocado"></div>
           <div className="cuadrado tres">
             <img
-              src="../public/img/tricepss.png"
+              src="./img/tricepss.png"
               alt="svg de una mancuerna"
               className="imgSvg"
             />

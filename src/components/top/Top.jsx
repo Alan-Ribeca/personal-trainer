@@ -6,7 +6,7 @@ export const Top = () => {
     <>
       <header className="header">
         <img
-          src="../public/img/p111.jpg"
+          src="./img/p111.jpg"
           alt="persona en el gym"
           className="imgFondo"
         />
