@@ -84,15 +84,15 @@
 
 .card {
   &.elegida {
-    &.medio {
-      background-color: white;
-    }
     top: -5%;
     background-color: white;
     border: 1px solid rgba(93, 233, 28, 0.527);
     z-index: 2;
     height: 545px;
     box-shadow: 1px 1px 6px 0px #05f11794;
+    &.medio {
+      background-color: white;
+    }
     .titleCard,
     .price,
     .acceso {
@@ -139,7 +139,7 @@
 .card {
   &.medio {
     position: absolute;
-    right: 31%;
+    right: 32%;
     z-index: 1;
     background-color: rgb(37 37 37);
   }
