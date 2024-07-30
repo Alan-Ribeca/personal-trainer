@@ -138,3 +138,48 @@
     width: 40%;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .header {
+    .contenedor {
+      top: 14%;
+    }
+    .barra {
+      bottom: -9%;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    .contenedor {
+      top: 20%;
+
+      .title {
+        font-size: 2.5rem;
+        width: 100%;
+      }
+
+      .texto {
+        width: 52%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .header {
+    .imgFondo {
+      height: 347px;
+    }
+
+    .contenedor {
+      .title {
+        font-size: 2rem;
+      }
+      .texto {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

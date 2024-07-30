@@ -5,6 +5,7 @@
   position: absolute;
   bottom: -10%;
   background-color: transparent;
+  visibility: visible;
   .cuadrado {
     text-align: center;
     height: 240px;
@@ -113,5 +114,11 @@
 @media screen and (max-width: 970px) {
   .cuadradoContainer .cuadrado {
     height: 210px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cuadradoContainer {
+    visibility: hidden;
   }
 }

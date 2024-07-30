@@ -174,3 +174,27 @@
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+  .card {
+    &.medio {
+      right: 15%;
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .card {
+    &.medio {
+      right: 14%;
+    }
+
+    &.izquierda {
+      left: 0;
+    }
+
+    &.derecha {
+      right: 0;
+    }
+  }
+}

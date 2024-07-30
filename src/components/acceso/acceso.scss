@@ -99,3 +99,15 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 770px) {
+  .acceso {
+    margin-top: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .pasos .container .cuadradoPasos {
+    width: 220px;
+  }
+}

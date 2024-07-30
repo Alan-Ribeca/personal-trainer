@@ -93,3 +93,18 @@
     width: 620px;
   }
 }
+
+@media screen and (max-width: 770px) {
+  .preguntasContainer .ulPre .preg {
+    width: 500px;
+
+    &.liAbierto {
+      height: 7rem;
+      .textPreg {
+        top: 49%;
+        height: 7rem;
+        bottom: 0;
+      }
+    }
+  }
+}

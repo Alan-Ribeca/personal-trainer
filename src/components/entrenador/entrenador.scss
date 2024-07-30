@@ -58,3 +58,22 @@
     }
   }
 }
+
+@media screen and (max-width: 770px) {
+  .entrenador {
+    .presentacion {
+      width: 100%;
+      padding-left: 3rem;
+    }
+    .imgEntrenador {
+      width: 298px;
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .entrenador .imgEntrenador {
+    width: 251px;
+    height: 267px;
+  }
+}
