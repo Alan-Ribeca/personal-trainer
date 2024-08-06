@@ -118,6 +118,10 @@
     .cuadrados {
       grid-template-columns: repeat(1, 1fr);
     }
+
+    .titleAcceso {
+      font-size: 1.5rem;
+    }
   }
 
   .pasos {
@@ -125,8 +129,13 @@
       column-gap: 0px;
 
       .cuadradoPasos {
-        width: 130px;
+        width: 85%;
         height: 6rem;
+
+        .texto {
+          font-weight: 100;
+          width: 90%;
+        }
       }
     }
   }
