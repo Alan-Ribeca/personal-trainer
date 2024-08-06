@@ -108,3 +108,29 @@
     }
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px)  {  
+  .preguntasContainer {
+    .titlePreguntas {
+      font-size: 1.2rem;
+
+      .titleVerde {
+        font-size: 2.3rem;
+      }
+    }
+
+    .ulPre {
+      .preg {
+        width: 290px;
+        font-size: 14px;
+        padding-left: 0.5rem;
+       
+        &.liAbierto {
+          .textPreg {
+            width: 95%;
+          }
+        }
+      }
+    }
+  }
+}

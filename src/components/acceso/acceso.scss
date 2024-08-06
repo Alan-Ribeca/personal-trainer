@@ -111,3 +111,23 @@
     width: 220px;
   }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 430px) { 
+  .acceso {
+    .cuadrados {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .pasos {
+    .container {
+      column-gap: 0px;
+
+      .cuadradoPasos {
+        width: 130px;
+        height: 6rem;
+      }
+    }
+  }
+}

@@ -69,3 +69,10 @@
     transform: translateX(calc(-315px * 8));
   }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 430px)  {  
+  .slider .slideContainer .slide {
+    width: 257px;
+  }
+}

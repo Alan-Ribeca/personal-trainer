@@ -20,6 +20,7 @@
   }
 
   .imgEntrenador {
+    display: block;
     width: 439px;
     height: auto;
     mask-image: linear-gradient(rgb(0, 0, 0) 50%, transparent);
@@ -75,5 +76,28 @@
   .entrenador .imgEntrenador {
     width: 251px;
     height: 267px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px)  { 
+  .entrenador {
+    display: block;
+
+    .presentacion {
+      padding-left: 0;
+
+      .titleProfe {
+        font-size: 1.5rem;
+      }
+
+      .textoProfe {
+        width: 90%;
+        padding-left:0.5rem;
+      }
+    }
+
+    .imgEntrenador {
+      display: none;
+    }
   }
 }

@@ -198,3 +198,29 @@
     }
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 430px)  {
+  .titleCompra {
+    font-size: 1.5rem;
+  }
+
+  .textoCompra {
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    &.elegida {
+      height: 485px;
+
+      .lista .btnComprar {
+        margin-top: 0;
+      }
+      
+      &.medio {
+        width: 81%;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}

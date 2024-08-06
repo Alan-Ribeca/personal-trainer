@@ -183,3 +183,22 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    .imgFondo {
+      height: 265px;
+    }
+
+    .contenedor {
+      .title {
+        font-size: 1.5rem;
+      }
+
+      .texto {
+        font-size: 14px;
+        width: 80%;
+      }
+    }
+  }
+}
